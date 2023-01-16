@@ -111,7 +111,7 @@ body {
             }
 
 
-#sign_up2 {
+#sign_upp {
     margin-top:10px;
     margin-bottom:  10px;
 
@@ -127,15 +127,12 @@ body {
     transition: 0.5s linear;
 }
 
-            #sign_up:hover {
+            #sign_upp:hover {
                 background-color:rgb(221, 212, 212);
             }
            
 
 #log_in2 {
-    margin-top:20;
-    margin-bottom:10px;
-
     font-size: 13px;
     padding: 8px 26px;
 
@@ -152,7 +149,7 @@ body {
     transition: 0.5s linear;
 }
 
-            #log_in:hover {
+            #log_in2:hover {
                 background-color:rgb(221, 212, 212);
             }
 
@@ -182,7 +179,7 @@ footer {
 __________________________________________________
  for debugging */
 
- * {
+ /* {
      outline: 1px solid red;
 }
   

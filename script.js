@@ -1,12 +1,11 @@
 var email = document.getElementById("email");
-var div = document.getElementsByClassName("cointainer")
 
 document.getElementById("log_in").addEventListener("click", function login() {
     document.getElementById("info").innerHTML = "We're sorry, there's no registered account on <br><b>" + email.value + "</b>!";
 })
 
-document.getElementById("sign_up2").addEventListener("click", function signup() {
-    document.getElementById("info").innerHTML = "Account registered on <br><b> " + email.value + "</br></b>!";
+document.getElementById("sign_upp").addEventListener("click", function sign_up() {
+    document.getElementById("info").innerHTML = "Account registered on <br><b>" + email.value + "</b>!";
 
 })
 
