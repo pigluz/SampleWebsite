@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <div class="cointainer">
         <h1>Welcome</h1>
-        <h2>Log in</h2>
+        <h2>Sign up</h2>
         <p>Enter your username:</p>
         <input type="text" id="name">
 
@@ -23,14 +20,13 @@
         <p>Enter your password:</p>
         <input type="password" id="pass"><br>
         <input type="checkbox" id="togglePass" onclick="togglePass()">Show password<br>
+        
+        <a href="login.html" id="log_in2">Log in</a><br>
+        <button id="sign_up2" onclick="signup()"><b>Sign up</b></button><br>
+        
 
-        <button id="log_in" onclick="login()"><b>Log in</b></button><br>
-
-        <a href="signup.html" id="sign_up">Sign up</a><br><br>
 
         <p id="info"></p>
-
-        <a href="" id="forgot">Forgot your password/email?</a>
 
     </div>
     <footer>
@@ -38,5 +34,4 @@
     </footer>
     <script src="script.js"></script>
 </body>
-
 </html>

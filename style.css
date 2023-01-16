@@ -54,7 +54,16 @@ body {
 
 
 
-.cointainer button {
+
+#togglePass {
+    width: 15px;
+    height: 15px; 
+
+    cursor:pointer;
+
+}
+
+#log_in {
     margin-top:10px;
     margin-bottom:  10px;
 
@@ -70,39 +79,111 @@ body {
     transition: 0.5s linear;
 }
 
-            .cointainer button:hover {
+            #log_in:hover {
                 background-color:rgb(221, 212, 212);
             }
 
 
 
-#togglePass {
-    width: 15px;
-    height: 15px;
-    
-    cursor:pointer
+
+#sign_up {
+    margin-top:10px;
+    margin-bottom:  10px;
+
+    font-size: 13px;
+    padding: 8px 20px;
+
+    background-color: #F0F0F0;
+    color: black;
+
+    text-decoration: none;
+
+    border:none;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
 }
 
-a {
-    position: relative;
-    top:7rem;
+            #sign_up:hover {
+                background-color:rgb(221, 212, 212);
+            }
 
+
+#sign_up2 {
+    margin-top:10px;
+    margin-bottom:  10px;
+
+    padding: 10px;
+
+    border:none;
+    border-radius: 20px;
+
+    width: 90px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+            #sign_up:hover {
+                background-color:rgb(221, 212, 212);
+            }
+           
+
+#log_in2 {
+    margin-top:20;
+    margin-bottom:10px;
+
+    font-size: 13px;
+    padding: 8px 26px;
+
+    background-color: #F0F0F0;
+    color: black;
+
+    text-decoration: none;
+
+    border:none;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+            #log_in:hover {
+                background-color:rgb(221, 212, 212);
+            }
+
+
+
+
+#forgot {
+    position:fixed;
+    bottom: 6rem;
+    left: 52rem;
+
+    text-align: center;
     text-decoration: none;
 }
 
-
 footer {
     color: white;
+
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+
     text-align: center;
 }
 
-/* 
-FOR DEBUGGING:
 
-* {
+/* 
+__________________________________________________
+ for debugging */
+
+ * {
      outline: 1px solid red;
- }
+}
   
- */
+
