@@ -63,7 +63,7 @@ body {
 
 }
 
-#log_in {
+#login {
     margin-top:10px;
     margin-bottom:  10px;
 
@@ -79,7 +79,7 @@ body {
     transition: 0.5s linear;
 }
 
-            #log_in:hover {
+            #login:hover {
                 background-color:rgb(221, 212, 212);
             }
 
@@ -111,7 +111,7 @@ body {
             }
 
 
-#sign_upp {
+#signupp {
     margin-top:10px;
     margin-bottom:  10px;
 
@@ -127,7 +127,7 @@ body {
     transition: 0.5s linear;
 }
 
-            #sign_upp:hover {
+            #signupp:hover {
                 background-color:rgb(221, 212, 212);
             }
            
