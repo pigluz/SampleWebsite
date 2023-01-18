@@ -1,14 +1,15 @@
 var email = document.getElementById("email");
 
 // sign up script
-const signup = document.getElementById("signupp");
+const signup = document.getElementById("signup_sg");
 if (signup) signup.addEventListener("click", function (e) {
   document.getElementById('info').innerHTML = "Account registered on <br><b>" + email.value + "</b>!";
 });
 
 // log in script
-const login = document.getElementById("login");
-if (login) login.addEventListener("click", function(e) {
+const login = document.getElementById("login_lg");
+if (login) login.addEventListener("click", function (e) {
+    console.log(e)
     document.getElementById("info").innerHTML = "We're sorry, there's no registered account on <br><b>" + email.value + "</b>!";
 });
 // fix found my mklkj :crying_face::crying_face::crying_face:
