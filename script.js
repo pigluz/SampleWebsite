@@ -1,13 +1,20 @@
 var email = document.getElementById("email");
-var div = document.getElementsByClassName("cointainer")
 
-document.getElementById("log_in").addEventListener("click", function login() {
-    document.getElementById("wrong").innerHTML = "We're sorry, there's no registered account on <br><b>" + email.value + "</b>!";
-})
+// sign up script
+const signup = document.getElementById("signupp");
+if (signup) signup.addEventListener("click", function (e) {
+  document.getElementById('info').innerHTML = "Account registered on <br><b>" + email.value + "</b>!";
+});
+
+// log in script
+const login = document.getElementById("login");
+if (login) login.addEventListener("click", function(e) {
+    document.getElementById("info").innerHTML = "We're sorry, there's no registered account on <br><b>" + email.value + "</b>!";
+});
+// fix found my mklkj :crying_face::crying_face::crying_face:
 
 
-
-
+// password toggle script
 function togglePass() {
     var x = document.getElementById("pass");
     if (x.type === "password") {
