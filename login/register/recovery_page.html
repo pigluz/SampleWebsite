@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovering</title>
+    <link rel="stylesheet" href="logstyle.css">
+</head>
+
+<body id="bg_recovery">
+
+    <div class="cointainer_before">
+        <a href="login.html" id="returnto">Return to login screen</a>
+        <h1>Welcome</h1>
+        <h2>Recovering your account's info</h2>
+
+        <p>What did you forget?</p>
+
+        <div onClick="window.location = 'email_recovery.html';">
+            <input type="radio" value="email" class="recovery_item" id="forgot_email" style="pointer-events:none;"> E-mail
+        </div>
+        <div onClick="window.location = 'pass_recovery.html';">
+            <input type="radio" value="pass" class="recovery_item" id="forgot_password" style="pointer-events:none;"> Password
+        </div>
+    
+    </div>
+    <footer>
+        Made by pigluz
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

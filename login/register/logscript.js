@@ -25,3 +25,13 @@ function togglePass() {
     }
 }
 // found on https://www.w3schools.com/howto/howto_js_toggle_password.asp
+
+
+// for recovery page 
+if (document.getElementById("forgot_email").checked) {
+  document.getElementById('cointainer_before').classList.toggle('cointainer');
+  console.log
+
+} else if (document.getElementById("forgot_password").checked) {
+
+}
