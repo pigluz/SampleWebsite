@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+hr {
+    border: 2px solid #AFACA6
+}
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+/* BACKGROUND GRADIENT  */
+#bg_login {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(111,9,121,1) 34%, rgba(0,255,194,1) 100%);
+    background-size: 120%;
+}
+
+#bg_signup {
+    background: linear-gradient(64deg, rgb(204, 203, 130) 0%, rgb(61, 103, 194) 34%, rgba(0,255,194,1) 100%);
+    background-size: 120%;
+}
+
+#bg_recovery {
+    background: linear-gradient(45deg, rgb(67, 66, 92) 0%, rgb(104, 214, 141) 34%, rgb(171, 84, 211) 100%);
+
+}
+
+/* CSS FOR LOGIN/REGISTER  */
+.cointainer {
+    background-color: rgb(223, 220, 213);
+
+    height: 800px;
+    width: 500px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3rem;
+
+
+    border: 4px solid rgb(175, 172, 166);
+    border-radius: 15px;
+
+    box-shadow: 5px 1px rgb(139, 137, 132);
+
+    animation-name: cointainer_animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+                @keyframes cointainer_animation {
+                    from {margin-top: 100rem;}
+                    to {margin-top:3rem;}
+                } 
+
+        .cointainer h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 55px;
+
+            padding:10px;
+        }
+
+
+        .cointainer input {
+            padding: 10px;
+            margin-bottom:10px;
+            width: 20em;
+
+            border: 2px solid rgb(175, 172, 166);
+            border-radius: 10px;
+
+            text-align: center;
+            transition: 0.5s linear;
+        }
+
+                    .cointainer input:hover,:focus {
+                        background-color:rgb(243, 243, 243);
+                    }
+
+
+#togglePass {
+    width: 15px;
+    height: 15px; 
+
+    cursor:pointer;
+
+}
+
+#login_lg {
+    margin-top:10px;
+    margin-bottom:  10px;
+
+    padding: 10px;
+
+    border:none;
+    border-radius: 20px;
+
+    width: 90px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+            #login_lg:hover {
+                background-color:rgb(221, 212, 212);
+            }
+
+
+#login_sg {
+    font-size: 13px;
+    padding: 8px 26px;
+
+    background-color: #F0F0F0;
+    color: black;
+
+    text-decoration: none;
+
+    border:none;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+            #login_sg:hover {
+                background-color:rgb(221, 212, 212);
+            }
+
+
+#signup_lg {
+    margin-top:10px;
+    margin-bottom:  10px;
+
+    font-size: 13px;
+    padding: 8px 20px;
+
+    background-color: #F0F0F0;
+    color: black;
+
+    text-decoration: none;
+
+    border:none;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+            #signup_lg:hover {
+                background-color:rgb(221, 212, 212);
+            }
+
+
+#signup_sg {
+    margin-top:10px;
+    margin-bottom:  10px;
+
+    padding: 10px;
+
+    border:none;
+    border-radius: 20px;
+
+    width: 90px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+            #signup_sg:hover {
+                background-color:rgb(221, 212, 212);
+            }
+           
+
+
+#forgot_text {
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+} 
+
+footer {
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+                                /* FOR RECOVERY PAGE */
+
+.cointainer_recovery_menu {
+    background-color: rgb(223, 220, 213);
+
+    height: 500px;
+    width: 500px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3rem;
+
+
+    border: 4px solid rgb(175, 172, 166);
+    border-radius: 15px;
+
+    box-shadow: 5px 1px rgb(139, 137, 132);
+
+    animation-name: cointainer_animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.cointainer_recovery_menu h1{
+    margin-top: 140px;
+}
+
+.cointainer_recovery {
+    background-color: rgb(223, 220, 213);
+
+    height: 850px;
+    width: 500px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2rem;
+
+
+    border: 4px solid rgb(175, 172, 166);
+    border-radius: 15px;
+
+    box-shadow: 5px 1px rgb(139, 137, 132);
+}
+
+.cointainer_recovery h1 {
+    font-size:30px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.cointainer_recovery input {
+    padding: 10px;
+    margin-bottom:10px;
+    width: 20em;
+
+    border: 2px solid rgb(175, 172, 166);
+    border-radius: 10px;
+
+    text-align: center;
+    transition: 0.5s linear;
+}
+
+            .cointainer input:hover,:focus {
+                background-color:rgb(243, 243, 243);
+            }
+
+
+.recovery_item {
+
+    width: 15px !important;
+    height: 15px !important;
+
+    padding: 0px;
+
+    cursor:pointer;
+
+    pointer-events:none;
+}
+
+
+#returnto {
+        color: black;
+
+        float: left;
+
+        padding: 13px;
+
+        font-size: 20px;
+}
+
+.cointainer_recovery button{
+    margin-top:20px;
+    margin-bottom: 30px;
+
+    padding: 8px 20px;
+
+    border:none;
+    border-radius: 20px;
+
+    width: 150px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+    font-size: 20px;
+}
+
+            .cointainer_recovery button:hover {
+                background-color:rgb(221, 212, 212);
+            }
+           
+
+.code_div {
+    visibility:idden;
+}
+
+#code_input {
+    width: 100px;
+    height: 10px;
+    position: relative;
+    left: 39px;
+    bottom:50px;
+}
+
+#submit_code {
+    visibility: visible;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    position: relative;
+    right: 63px;
+    margin-top: 50px;
+}
+/* 
+__________________________________________________
+ for debugging */
+
+/* {
+     outline: 1px solid red;
+}
