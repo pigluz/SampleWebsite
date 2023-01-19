@@ -1,37 +1,52 @@
 var email = document.getElementById("email");
+var name = document.getElementById("name");
+var password = document.getElementById("pass");
 
-// sign up script
+//login site
+/// sign up script
 const signup = document.getElementById("signup_sg");
 if (signup) signup.addEventListener("click", function (e) {
   document.getElementById('info').innerHTML = "Account registered on <br><b>" + email.value + "</b>!";
 });
 
-// log in script
+/// log in script
 const login = document.getElementById("login_lg");
 if (login) login.addEventListener("click", function (e) {
-    console.log(e)
     document.getElementById("info").innerHTML = "We're sorry, there's no registered account on <br><b>" + email.value + "</b>!";
 });
-// fix found my mklkj :crying_face::crying_face::crying_face:
+//////////// fix found my mklkj :crying_face::crying_face::crying_face:
 
 
 // password toggle script
 function togglePass() {
-    var x = document.getElementById("pass");
-    if (x.type === "password") {
-      x.type = "text";
+    if (password.type === "password") {
+      password.type = "text";
     } else {
-      x.type = "password";
+      password.type = "password";
     }
 }
 // found on https://www.w3schools.com/howto/howto_js_toggle_password.asp
 
 
-// for recovery page 
-if (document.getElementById("forgot_email").checked) {
-  document.getElementById('cointainer_before').classList.toggle('cointainer');
-  console.log
+// for recovery page
 
-} else if (document.getElementById("forgot_password").checked) {
+/// email recovery
+const email_reco = document.getElementById("submit_recovery_em")
+if (email_reco) email_reco.addEventListener("click", function (e) {
+  document.getElementById("reco_info").innerHTML = "We sent a code to your phone number. <br> Please now enter your code <b>below</b>:";
+  document.getElementsByClassName("code_div").style.visibility = "visible";
+})
 
-}
+///password recovery 
+const pass_reco = document.getElementById("submit_recovery_ps")
+if (pass_reco) pass_reco.addEventListener("click", function (e) {
+  document.getElementById("reco_info").innerHTML = "We sent a code to your email. <br> Please now enter your code <b>below</b>:";
+  document.getElementsByClassName("code_div").style.visibility = "visible";
+})
+
+////recovery info
+var code = document.getElementById("code_input");
+const code_info = document.getElementById("submit_code");
+if (code_info) code_info.addEventListener("click", function (e) {
+  document.getElementById("code_info").innerHTML = "<b>" + code.value + "</b><br>Wrong code.";
+})
