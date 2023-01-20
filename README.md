@@ -4,3 +4,6 @@
 I'm kinda proud of this ngl
 
 <a href="https://www.flaticon.com/free-icons/pin" title="pin icons">Pin icons created by Freepik - Flaticon</a>
+
+started in 16.01.2023
+finished 20.01.2023
