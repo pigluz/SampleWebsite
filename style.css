@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+hr {
+        border: 2px solid #AFACA6
+}
+/* BACKGROUND GRADIENT */
+#bg_index { 
+    background: linear-gradient(90deg, rgb(88, 93, 109) 0%, rgb(50, 102, 117) 34%, rgb(206, 124, 77) 100%);
+    background-size: 120%;
+
+    overflow: hidden;
+
+    min-height: 100%;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* HEADER */
+.header {
+    background-color: rgb(223, 220, 213);
+
+    height: 230px;
+    width: 1200px;
+
+    text-align: center;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1rem;
+
+    border: 4px solid rgb(175, 172, 166);
+    border-radius: 15px;
+
+    box-shadow: 5px 1px rgb(139, 137, 132);
+
+    animation-name: header_animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+                @keyframes header_animation {
+                    from {margin-top: 40rem;}
+                    to {margin-top: 1rem;}
+                }
+
+    .header span {
+        position: relative;
+        bottom: 30px;
+    }
+
+header {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+
+
+
+
+/*NAVIGATION BAR */
+.topnav {
+    overflow: hidden;
+}
+  
+  .topnav a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  .topnav a:hover {
+    background-color: rgb(175, 172, 166);
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: rgb(139, 137, 132);
+    color: white;
+}
+
+
+/*COINTAINER */
+.cointainer {
+    background-color: rgb(223, 220, 213);
+
+    height: 550px;
+    width: 1150px;
+
+    text-align: center;
+
+    display: block;
+    text-align: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+
+    border: 4px solid rgb(175, 172, 166);
+    border-radius: 15px;
+
+    box-shadow: 5px 1px rgb(139, 137, 132);
+
+    animation-name: cointainer_animation;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    
+    font-weight: 400;
+
+}
+            @keyframes cointainer_animation {
+                from {margin-top: 50rem;}
+                to {margin-top:1.5rem;}
+            } 
+
+    .cointainer h1 {
+        font-size: 50px;
+    }
+
+#intro {
+    margin: 0px 30px;
+}
+footer {
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+
+.our_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_team img {
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+/*CSS FOR NEWS SECTION */
+
+#paragraf_news {
+    margin: 0px 40px;
+    float: right;
+    font-size: 17px;
+}
+#img_news {
+    margin-right: 40px;
+    width: 450px;
+    height: 320px;
+    float: left;
+    border-radius: 30px;
+
+}
+
+#clickhere {
+    position: relative;
+    left:200px;
+    bottom: 35px;
+    font-style: italic;
+}
+
+/*CSS FOR CONTACT SECTION */
+#contact_icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+#contact_input{
+    padding: 10px;
+    margin-bottom:10px;
+    width: 20em;
+
+    border: 2px solid rgb(175, 172, 166);
+    border-radius: 10px;
+
+    text-align: center;
+    transition: 0.5s linear;
+}
+
+    #contact_input:hover,:focus {
+        background-color:rgb(243, 243, 243);
+    }
+
+
+#contact_submit{
+    margin-top:10px;
+    margin-bottom:  10px;
+
+    padding: 10px;
+
+    border:none;
+    border-radius: 20px;
+
+    width: 90px;
+
+    cursor: pointer;
+
+    transition: 0.5s linear;
+}
+
+#contact_submit:hover {
+    background-color:rgb(221, 212, 212);
+}
+/*for debugging */
+
+/* {
+     outline: 1px solid red;
+}
