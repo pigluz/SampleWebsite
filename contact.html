@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mainpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bg_index">
+
+    <div class="header">
+        <header>Welcome</header>
+        <span>to our home page</span><br>
+        <div class="topnav">
+            <a href="home.html">Home</a>
+            <a href="news.html">News</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a href="./register.login/login.html">Login</a><br>
+        </div>
+    </div>
+
+    <div class="cointainer" style="height: 560px;">
+        <h1 id="home">Contact</h1>
+        <h2>Here's how to contact us:</h2>
+
+        <p><img src="./assets/phone.png" id="contact_icon"> (555) 555-5555</p>
+        <p><img src="./assets/mail.png" id="contact_icon">contact@website.com</p>
+        <p><img src="./assets/addres.png" id="contact_icon">123 Main St, Anytown USA 12345</p>
+    
+    <h2>You can also enter your phone number, so we can get to you:</h2>
+    <input type="number" id="contact_input" minlength="1" maxlength="9"><br>
+    <button id="contact_submit">Submit</button>
+
+    <p id="contact_info"></p>
+    </div>
+
+
+    <footer>
+        Made by pigluz
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
