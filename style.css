@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+
 hr {
-        border: 2px solid #AFACA6
+    border: 2px solid #AFACA6
 }
+
+/* HIDE SCROLL BAR, BUT KEEP THE FUNCTIONALITY */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 /* BACKGROUND GRADIENT */
 #bg_index { 
     background: linear-gradient(90deg, rgb(88, 93, 109) 0%, rgb(50, 102, 117) 34%, rgb(206, 124, 77) 100%);
     background-size: 120%;
 
-    overflow: hidden;
 
     min-height: 100%;
 
@@ -219,6 +230,8 @@ footer {
 #contact_submit:hover {
     background-color:rgb(221, 212, 212);
 }
+
+
 /*for debugging */
 
 /* {
