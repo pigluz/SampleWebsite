@@ -14,7 +14,7 @@ const login = document.getElementById("login_lg");
 if (login) login.addEventListener("click", function (e) {
     document.getElementById("info").innerHTML = "We're sorry, there's no registered account on <br><b>" + email.value + "</b>!";
 });
-//////////// fix found my mklkj :crying_face::crying_face::crying_face:
+//////////// fix found by mklkj :crying_face::crying_face::crying_face:
 
 
 // password toggle script
